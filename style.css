@@ -1,0 +1,68 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     
+}
+ body{
+    background-image: url("../image/seaimage2.avif");
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 1300px;
+ }
+ .container{
+    background-color: white;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,338);
+ }
+.display-timer{
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono',monospace;
+    color: rgb(92, 92, 206);
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65,5,145,0.25);
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:nth-last-child(2){
+    background-color: rgb(196, 72, 72);
+}
+.buttons button:nth-last-child(1){
+        background-color: darkorange;
+}
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
